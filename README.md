@@ -19,7 +19,7 @@ Contributors are always welcome, even for English typos in the readme or comment
 - Fork this repo
 - Install dependencies via Carthage
 - Do your stuff (implement features / fix bugs 🐛 )
-- Make a new Pull Request
+- Submit a new Pull Request
 
 
 
