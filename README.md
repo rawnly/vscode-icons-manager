@@ -1,4 +1,4 @@
-# VSCode Manager
+# VSCode Icon Manager
 > Manage [vscode-icons][1] with ease
 
 ![screen][2]
@@ -10,6 +10,9 @@ Please check it out and contribute if you can.
 
 # Installation
 The latest build is available in the releases section. Just download and run the application.
+
+##### ⚠️  **WARNING** ⚠️
+After a download, you need to `cmd + click` on  vscode (if in the dock) to update the icon.
 
 # Contributing
 Contributors are always welcome, even for English typos in the readme or comments!
@@ -23,7 +26,7 @@ Contributors are always welcome, even for English typos in the readme or comment
 
 ---
 
-# Related
+# Related
 - [VSCode Icon Manager](https://github.com/Rawnly/vscode-icons-manager--electron) (Electron Version)
 - [vscode-icons][5] by [@dhanishgajjar][4]
 

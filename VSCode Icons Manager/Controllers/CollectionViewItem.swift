@@ -35,4 +35,13 @@ class AspectFillImageView: NSImageView {
         let ratio = viewWidth / img.size.width
         return CGSize(width: viewWidth, height: img.size.height * ratio)
     }
+    
+    
+    override func mouseExited(with event: NSEvent) {
+        print("You hovered me! IMG")
+    }
+    
+    override func mouseEntered(with event: NSEvent) {
+        print("Exited IMG")
+    }
 }

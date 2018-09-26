@@ -14,6 +14,7 @@
 		9A90925A215BD02A00E69987 /* CollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A909258215BD02A00E69987 /* CollectionViewItem.swift */; };
 		9A90925B215BD02A00E69987 /* CollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A909259215BD02A00E69987 /* CollectionViewItem.xib */; };
 		9AB1AEC2215C28C4002A6C10 /* DockProgress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB1AEC1215C28C4002A6C10 /* DockProgress.framework */; };
+		9AFD60E4215C47E30019C291 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFD60E3215C47E30019C291 /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9A909258215BD02A00E69987 /* CollectionViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewItem.swift; sourceTree = "<group>"; };
 		9A909259215BD02A00E69987 /* CollectionViewItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewItem.xib; sourceTree = "<group>"; };
 		9AB1AEC1215C28C4002A6C10 /* DockProgress.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DockProgress.framework; path = Carthage/Build/Mac/DockProgress.framework; sourceTree = "<group>"; };
+		9AFD60E3215C47E30019C291 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				9A90922D215BC42300E69987 /* ViewController.swift */,
+				9AFD60E3215C47E30019C291 /* Helpers.swift */,
 				9A909258215BD02A00E69987 /* CollectionViewItem.swift */,
 			);
 			path = Controllers;
@@ -288,6 +291,7 @@
 				9A90922E215BC42300E69987 /* ViewController.swift in Sources */,
 				9A90922C215BC42300E69987 /* AppDelegate.swift in Sources */,
 				9A90925A215BD02A00E69987 /* CollectionViewItem.swift in Sources */,
+				9AFD60E4215C47E30019C291 /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

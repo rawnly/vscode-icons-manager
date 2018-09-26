@@ -24,6 +24,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         openURL(url: "https://github.com/rawnly/vscode-icon-manager")
     }
     
+    @IBAction func forceUpdate(_ sender: Any) {
+        
+    }
+    
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
     }

@@ -49,7 +49,6 @@ class ViewController:
             NSApplication.shared.terminate(self);
         }
         
-        spinner.startAnimation(self)
 
         fetchIcons();
         
@@ -94,8 +93,10 @@ class ViewController:
 
 
 extension ViewController {
-    func fetchIcons()
+    public func fetchIcons()
     {
+        self.spinner.startAnimation(self)
+        
         guard let url: URL = URL(string: "https://vscode-icons-server-xaixyietnj.now.sh") else { return }
         
         URLSession.shared.dataTask(with: url) { (data, response, err) in
@@ -117,21 +118,6 @@ extension ViewController {
             
             }.resume()
     }
-    
-    func dialogOKCancel(question: String, text: String, style: NSAlert.Style = .warning) -> Bool {
-        let alert = NSAlert()
-        
-        alert.messageText = question
-        alert.informativeText = text
-        alert.alertStyle = .critical
-        
-        
-        alert.addButton(withTitle: "OK")
-        alert.addButton(withTitle: "Cancel")
-        
-        return alert.runModal() == .alertFirstButtonReturn
-    }
-    
     
     func downloadFile(icon: Item)
     {
