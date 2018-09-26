@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A90922C215BC42300E69987 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A90922B215BC42300E69987 /* AppDelegate.swift */; };
+		9A90922E215BC42300E69987 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A90922D215BC42300E69987 /* ViewController.swift */; };
+		9A909230215BC42400E69987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A90922F215BC42400E69987 /* Assets.xcassets */; };
+		9A909233215BC42400E69987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A909231215BC42400E69987 /* Main.storyboard */; };
+		9A90925A215BD02A00E69987 /* CollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A909258215BD02A00E69987 /* CollectionViewItem.swift */; };
+		9A90925B215BD02A00E69987 /* CollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A909259215BD02A00E69987 /* CollectionViewItem.xib */; };
+		9AB1AEC2215C28C4002A6C10 /* DockProgress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB1AEC1215C28C4002A6C10 /* DockProgress.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A90923B215BC42500E69987 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A909220215BC42300E69987 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A909227215BC42300E69987;
+			remoteInfo = "VSCode Icons Manager";
+		};
+		9A909246215BC42500E69987 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A909220215BC42300E69987 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A909227215BC42300E69987;
+			remoteInfo = "VSCode Icons Manager";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A909228215BC42300E69987 /* VSCode Icons Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VSCode Icons Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A90922B215BC42300E69987 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A90922D215BC42300E69987 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A90922F215BC42400E69987 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A909232215BC42400E69987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A909234215BC42400E69987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A909235215BC42400E69987 /* VSCode_Icons_Manager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VSCode_Icons_Manager.entitlements; sourceTree = "<group>"; };
+		9A90923A215BC42500E69987 /* VSCode Icons ManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VSCode Icons ManagerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A909245215BC42500E69987 /* VSCode Icons ManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VSCode Icons ManagerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A909257215BCBD500E69987 /* VSCode Icons Manager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "VSCode Icons Manager.entitlements"; sourceTree = "<group>"; };
+		9A909258215BD02A00E69987 /* CollectionViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewItem.swift; sourceTree = "<group>"; };
+		9A909259215BD02A00E69987 /* CollectionViewItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewItem.xib; sourceTree = "<group>"; };
+		9AB1AEC1215C28C4002A6C10 /* DockProgress.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DockProgress.framework; path = Carthage/Build/Mac/DockProgress.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A909225215BC42300E69987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB1AEC2215C28C4002A6C10 /* DockProgress.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A909237215BC42500E69987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A909242215BC42500E69987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A90921F215BC42300E69987 = {
+			isa = PBXGroup;
+			children = (
+				9A90922A215BC42300E69987 /* VSCode Icons Manager */,
+				9A909229215BC42300E69987 /* Products */,
+				9AB1AEC0215C28C4002A6C10 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A909229215BC42300E69987 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A909228215BC42300E69987 /* VSCode Icons Manager.app */,
+				9A90923A215BC42500E69987 /* VSCode Icons ManagerTests.xctest */,
+				9A909245215BC42500E69987 /* VSCode Icons ManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A90922A215BC42300E69987 /* VSCode Icons Manager */ = {
+			isa = PBXGroup;
+			children = (
+				9A90922B215BC42300E69987 /* AppDelegate.swift */,
+				9A90922F215BC42400E69987 /* Assets.xcassets */,
+				9AFD60E2215C3D1E0019C291 /* Controllers */,
+				9A909259215BD02A00E69987 /* CollectionViewItem.xib */,
+				9A909231215BC42400E69987 /* Main.storyboard */,
+				9A909234215BC42400E69987 /* Info.plist */,
+				9A909257215BCBD500E69987 /* VSCode Icons Manager.entitlements */,
+				9A909235215BC42400E69987 /* VSCode_Icons_Manager.entitlements */,
+			);
+			path = "VSCode Icons Manager";
+			sourceTree = "<group>";
+		};
+		9AB1AEC0215C28C4002A6C10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AB1AEC1215C28C4002A6C10 /* DockProgress.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AFD60E2215C3D1E0019C291 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A90922D215BC42300E69987 /* ViewController.swift */,
+				9A909258215BD02A00E69987 /* CollectionViewItem.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A909227215BC42300E69987 /* VSCode Icons Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A90924E215BC42500E69987 /* Build configuration list for PBXNativeTarget "VSCode Icons Manager" */;
+			buildPhases = (
+				9A909224215BC42300E69987 /* Sources */,
+				9A909225215BC42300E69987 /* Frameworks */,
+				9A909226215BC42300E69987 /* Resources */,
+				9AB1AEBF215C2811002A6C10 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VSCode Icons Manager";
+			productName = "VSCode Icons Manager";
+			productReference = 9A909228215BC42300E69987 /* VSCode Icons Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A909239215BC42500E69987 /* VSCode Icons ManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A909251215BC42500E69987 /* Build configuration list for PBXNativeTarget "VSCode Icons ManagerTests" */;
+			buildPhases = (
+				9A909236215BC42500E69987 /* Sources */,
+				9A909237215BC42500E69987 /* Frameworks */,
+				9A909238215BC42500E69987 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A90923C215BC42500E69987 /* PBXTargetDependency */,
+			);
+			name = "VSCode Icons ManagerTests";
+			productName = "VSCode Icons ManagerTests";
+			productReference = 9A90923A215BC42500E69987 /* VSCode Icons ManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A909244215BC42500E69987 /* VSCode Icons ManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A909254215BC42500E69987 /* Build configuration list for PBXNativeTarget "VSCode Icons ManagerUITests" */;
+			buildPhases = (
+				9A909241215BC42500E69987 /* Sources */,
+				9A909242215BC42500E69987 /* Frameworks */,
+				9A909243215BC42500E69987 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A909247215BC42500E69987 /* PBXTargetDependency */,
+			);
+			name = "VSCode Icons ManagerUITests";
+			productName = "VSCode Icons ManagerUITests";
+			productReference = 9A909245215BC42500E69987 /* VSCode Icons ManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A909220215BC42300E69987 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Federico Vitale";
+				TargetAttributes = {
+					9A909227215BC42300E69987 = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					9A909239215BC42500E69987 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 9A909227215BC42300E69987;
+					};
+					9A909244215BC42500E69987 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 9A909227215BC42300E69987;
+					};
+				};
+			};
+			buildConfigurationList = 9A909223215BC42300E69987 /* Build configuration list for PBXProject "VSCode Icons Manager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A90921F215BC42300E69987;
+			productRefGroup = 9A909229215BC42300E69987 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A909227215BC42300E69987 /* VSCode Icons Manager */,
+				9A909239215BC42500E69987 /* VSCode Icons ManagerTests */,
+				9A909244215BC42500E69987 /* VSCode Icons ManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A909226215BC42300E69987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A909230215BC42400E69987 /* Assets.xcassets in Resources */,
+				9A909233215BC42400E69987 /* Main.storyboard in Resources */,
+				9A90925B215BD02A00E69987 /* CollectionViewItem.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A909238215BC42500E69987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A909243215BC42500E69987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9AB1AEBF215C2811002A6C10 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/Mac/DockProgress.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/DockProgress.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A909224215BC42300E69987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A90922E215BC42300E69987 /* ViewController.swift in Sources */,
+				9A90922C215BC42300E69987 /* AppDelegate.swift in Sources */,
+				9A90925A215BD02A00E69987 /* CollectionViewItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A909236215BC42500E69987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A909241215BC42500E69987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A90923C215BC42500E69987 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A909227215BC42300E69987 /* VSCode Icons Manager */;
+			targetProxy = 9A90923B215BC42500E69987 /* PBXContainerItemProxy */;
+		};
+		9A909247215BC42500E69987 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A909227215BC42300E69987 /* VSCode Icons Manager */;
+			targetProxy = 9A909246215BC42500E69987 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A909231215BC42400E69987 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A909232215BC42400E69987 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A90924C215BC42500E69987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A90924D215BC42500E69987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9A90924F215BC42500E69987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9FMWXUVHRW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "VSCode Icons Manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.federicovitale.VSCode-Icons-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		9A909250215BC42500E69987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9FMWXUVHRW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "VSCode Icons Manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.federicovitale.VSCode-Icons-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		9A909252215BC42500E69987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9FMWXUVHRW;
+				INFOPLIST_FILE = "VSCode Icons ManagerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.federicovitale.VSCode-Icons-ManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VSCode Icons Manager.app/Contents/MacOS/VSCode Icons Manager";
+			};
+			name = Debug;
+		};
+		9A909253215BC42500E69987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9FMWXUVHRW;
+				INFOPLIST_FILE = "VSCode Icons ManagerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.federicovitale.VSCode-Icons-ManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VSCode Icons Manager.app/Contents/MacOS/VSCode Icons Manager";
+			};
+			name = Release;
+		};
+		9A909255215BC42500E69987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9FMWXUVHRW;
+				INFOPLIST_FILE = "VSCode Icons ManagerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.federicovitale.VSCode-Icons-ManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = "VSCode Icons Manager";
+			};
+			name = Debug;
+		};
+		9A909256215BC42500E69987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9FMWXUVHRW;
+				INFOPLIST_FILE = "VSCode Icons ManagerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.federicovitale.VSCode-Icons-ManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = "VSCode Icons Manager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A909223215BC42300E69987 /* Build configuration list for PBXProject "VSCode Icons Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A90924C215BC42500E69987 /* Debug */,
+				9A90924D215BC42500E69987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A90924E215BC42500E69987 /* Build configuration list for PBXNativeTarget "VSCode Icons Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A90924F215BC42500E69987 /* Debug */,
+				9A909250215BC42500E69987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A909251215BC42500E69987 /* Build configuration list for PBXNativeTarget "VSCode Icons ManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A909252215BC42500E69987 /* Debug */,
+				9A909253215BC42500E69987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A909254215BC42500E69987 /* Build configuration list for PBXNativeTarget "VSCode Icons ManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A909255215BC42500E69987 /* Debug */,
+				9A909256215BC42500E69987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A909220215BC42300E69987 /* Project object */;
+}
