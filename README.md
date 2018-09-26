@@ -21,7 +21,11 @@ Contributors are always welcome, even for English typos in the readme or comment
 - Do your stuff (implement features / fix bugs 🐛 )
 - Submit a new Pull Request
 
+---
 
+# Related
+- [VSCode Icon Manager](https://github.com/Rawnly/vscode-icons-manager--electron) (Electron Version)
+- [vscode-icons][5] by [@dhanishgajjar][4]
 
 
 [1]:	https://github.com/dhanishgajjar/vscode-icons "Icons"
