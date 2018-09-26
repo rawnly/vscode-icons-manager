@@ -1,7 +1,7 @@
 # VSCode Manager
 > Manage [vscode-icons][1] with ease
 
-[screen][2]
+![screen][2]
 
 # [Icons][3]
 Right now all icons are taken from [@danishgajjar][4] [vscode-icons][5] repo.
